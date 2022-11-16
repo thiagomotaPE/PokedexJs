@@ -98,8 +98,13 @@
     justify-content: center;
     margin: 0.25rem auto;
     width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+#bttClosePUP:hover {
+    background-color: #ffffff67;
+    color: #000000;
 }
 
 #row-photo {

@@ -11,9 +11,6 @@ function convertPokemonToCardHTML(pokeDetail) {
                 <tr id="row_overview" class="row-group">
                     <td colspan="2">
                         <table id="table_overview" class="subtabelas">
-                            <thead>
-                                <tr><th colspan="3" id="cel-desc">nome científico</th></tr>
-                            </thead>
                             <tbody>
                                 <tr id="row-photo"><td colspan="3" id="col-photo"><img id="photo-pokemon" src="${pokeDetail.sprites.other.dream_world.front_default}" alt="${pokeDetail.name}"></td></tr>
                             </tbody>
