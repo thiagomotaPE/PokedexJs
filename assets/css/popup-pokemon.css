@@ -1,21 +1,21 @@
 
 #popupPokemon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+
+
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    padding: 0;
-
+    width: 70%;
 }
 
 .exibePUP {
-    display: flex;
     max-width: 95%;
     margin: 2rem auto;
-    padding: 0;
-    justify-content: center;
-    position: absolute;
-    top: 1em;
+    position: relative;
 }
 
 .ocultaPUP {
@@ -35,7 +35,6 @@
 .row-group {
     width: 100%;
 }
-
 
 .subtabelas {
     background-color: #FFFFFF;

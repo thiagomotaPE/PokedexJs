@@ -4,6 +4,8 @@
 }
 body{
     background-color: #f6f8fc;
+    backdrop-filter: blur(10px);
+    
 }
 
 .content{

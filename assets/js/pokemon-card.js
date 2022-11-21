@@ -28,7 +28,6 @@ cardAPI.getPokemonSelect = function (urlSelecionada){
 
 
 function clickOnPokemon(idSelecionado) {
-
     const numPokemon = idSelecionado;
     const urlPokemon = `https://pokeapi.co/api/v2/pokemon/${numPokemon}`
     //console.log('URL DENTRO' + urlPokemon)
